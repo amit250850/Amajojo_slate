@@ -1,0 +1,49 @@
+/* FASTOR V3.2.1 - CHANGE HOMEPAGE LOOK SLIGHTLY */
+.roarlookbook .hotspot {
+  background:#d9121f!important;
+}
+.custom-widget .img-wrapper {
+  display:block;
+  line-height:0;
+}
+.advanced-grid.categories-wall > div > div.container:first-child {
+  padding:0!important;
+}
+.categories-wall .category-wall .image img {
+  width:100%;
+  margin-top:20px;
+}
+
+
+/* Arist Nadeem's code */
+
+
+.ebay_desc_txt table tr td:first-child, .ebay_desc_txt table tr td:nth-child(3) {
+width: 21%;
+display: table-cell;
+background: #e4e4e4;
+border-bottom: 2px solid #fff;
+padding: 8px 10px;
+font-weight: 600;
+}
+.ebay_desc_txt table tr td:nth-child(2n+2) {
+width: 35%;
+padding: 5px 2%;
+background: #f3f3f3;
+border-bottom: 2px solid #fff;
+}
+.ebay_desc_txt table tr td {
+display: table-cell;
+}
+.ebay_desc_txt table tr td:nth-child(2n+2) h2 {
+font-size: 13px;
+font-weight: normal !important;
+color: #333333;
+}
+
+@media screen and (max-width: 639px) {
+.ebay_desc_txt table { width:100%; border-collapse:collapse;}
+.ebay_desc_txt table tr td:first-child, .ebay_desc_txt table tr td:nth-child(3) { width:100%; display:block;}
+.ebay_desc_txt table tr td:nth-child(2n+2) {width:100%;padding: 5px 10px;}
+.ebay_desc_txt table tr td { display:block;}
+}
